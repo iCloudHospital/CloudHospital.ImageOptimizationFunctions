@@ -1,11 +1,22 @@
 ## 게시전 확인 사항
 
+### 함수앱 대상 컨테이너 확인
+
 현재 작성된 함수 앱에 컨테이너 이름을 확인하십시오.
 
 이미지 파일 최적화 대상 컨테이너 이름으로 변경한 후 Azure Functions App 으로 게시하십시오.
 
-![Test 컨테이너 대상 함수 앱](./OptimizeImageTestFunction.cs)
-![Sample 컨테이너 대상 함수 앱](./OptimizeImageSampleFunction.cs)
+> ContainerName 상수가 대상 컨테이너 이름인지 확인하십시오.
+
+- [Test 컨테이너 대상 함수 앱](./OptimizeImageTestFunction.cs)
+- [Sample 컨테이너 대상 함수 앱](./OptimizeImageSampleFunction.cs)
+
+### GitHub Repository Secret
+
+Azure 함수 앱을 게시하기 위해 아래 내용이 필요합니다.
+
+- AZURE_FUNCTIONAPP_NAME
+- AZURE_FUNCTIONAPP_PUBLISH_PROFILE
 
 ## 개발환경 구성
 
